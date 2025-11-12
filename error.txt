@@ -1,0 +1,482 @@
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\model\actor\Player.java:7159: error: cannot find symbol
+    [javac] 	private final AutoFarmManager _autoFarmManager = new AutoFarmManager(this);
+    [javac] 	              ^
+    [javac]   symbol:   class AutoFarmManager
+    [javac]   location: class Player
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\model\actor\Player.java:7165: error: cannot find symbol
+    [javac] 	public final AutoFarmManager getAutoFarmManager()
+    [javac] 	             ^
+    [javac]   symbol:   class AutoFarmManager
+    [javac]   location: class Player
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\model\actor\Player.java:7190: error: cannot find symbol
+    [javac] 	private final AutoFarmManager _autoFarmManager = new AutoFarmManager(this);
+    [javac] 	              ^
+    [javac]   symbol:   class AutoFarmManager
+    [javac]   location: class Player
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\model\actor\Player.java:7197: error: cannot find symbol
+    [javac] 	public final AutoFarmManager getAutoFarmManager()
+    [javac] 	             ^
+    [javac]   symbol:   class AutoFarmManager
+    [javac]   location: class Player
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\model\actor\Player.java:7205: error: method doAutoFarmActions() is already defined in class Player
+    [javac] 	private void doAutoFarmActions()
+    [javac] 	             ^
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\model\actor\Player.java:7214: error: method onAutoFarmTick() is already defined in class Player
+    [javac] 	public void onAutoFarmTick()
+    [javac] 	            ^
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\network\clientpackets\RequestBypassToServer.java:12: error: cannot find symbol
+    [javac] import net.sf.l2j.gameserver.model.actor.instance.FortManager;
+    [javac]                                                  ^
+    [javac]   symbol:   class FortManager
+    [javac]   location: package net.sf.l2j.gameserver.model.actor.instance
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\network\clientpackets\RequestBypassToServer.java:14: error: cannot find symbol
+    [javac] import net.sf.l2j.gameserver.model.actor.instance.Npc;
+    [javac]                                                  ^
+    [javac]   symbol:   class Npc
+    [javac]   location: package net.sf.l2j.gameserver.model.actor.instance
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\network\clientpackets\RequestBypassToServer.java:15: error: cannot find symbol
+    [javac] import net.sf.l2j.gameserver.model.entity.Castle;
+    [javac]                                          ^
+    [javac]   symbol:   class Castle
+    [javac]   location: package net.sf.l2j.gameserver.model.entity
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\network\clientpackets\RequestBypassToServer.java:16: error: cannot find symbol
+    [javac] import net.sf.l2j.gameserver.model.entity.ClanHall;
+    [javac]                                          ^
+    [javac]   symbol:   class ClanHall
+    [javac]   location: package net.sf.l2j.gameserver.model.entity
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\network\clientpackets\RequestBypassToServer.java:17: error: cannot find symbol
+    [javac] import net.sf.l2j.gameserver.model.entity.Siege;
+    [javac]                                          ^
+    [javac]   symbol:   class Siege
+    [javac]   location: package net.sf.l2j.gameserver.model.entity
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\network\clientpackets\RequestBypassToServer.java:19: error: cannot find symbol
+    [javac] import net.sf.l2j.gameserver.network.FloodProtectors;
+    [javac]                                     ^
+    [javac]   symbol:   class FloodProtectors
+    [javac]   location: package net.sf.l2j.gameserver.network
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\network\clientpackets\RequestBypassToServer.java:20: error: package net.sf.l2j.gameserver.network.FloodProtectors does not exist
+    [javac] import net.sf.l2j.gameserver.network.FloodProtectors.Action;
+    [javac]                                                     ^
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\network\clientpackets\Say2.java:11: error: cannot find symbol
+    [javac] import net.sf.l2j.gameserver.network.FloodProtectors;
+    [javac]                                     ^
+    [javac]   symbol:   class FloodProtectors
+    [javac]   location: package net.sf.l2j.gameserver.network
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\network\clientpackets\Say2.java:12: error: package net.sf.l2j.gameserver.network.FloodProtectors does not exist
+    [javac] import net.sf.l2j.gameserver.network.FloodProtectors.Action;
+    [javac]                                                     ^
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\model\actor\Player.java:7159: error: cannot find symbol
+    [javac] 	private final AutoFarmManager _autoFarmManager = new AutoFarmManager(this);
+    [javac] 	                                                     ^
+    [javac]   symbol:   class AutoFarmManager
+    [javac]   location: class Player
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\model\actor\Player.java:7175: error: reference to getAutoFarmManager is ambiguous
+    [javac] 		if (getAutoFarmManager().isFarming())
+    [javac] 		    ^
+    [javac]   both method getAutoFarmManager() in Player and method getAutoFarmManager() in Player match
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\model\actor\Player.java:7176: error: reference to getAutoFarmManager is ambiguous
+    [javac] 			getAutoFarmManager().doFarmActions();
+    [javac] 			^
+    [javac]   both method getAutoFarmManager() in Player and method getAutoFarmManager() in Player match
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\model\actor\Player.java:7190: error: cannot find symbol
+    [javac] 	private final AutoFarmManager _autoFarmManager = new AutoFarmManager(this);
+    [javac] 	                                                     ^
+    [javac]   symbol:   class AutoFarmManager
+    [javac]   location: class Player
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\model\actor\Player.java:7207: error: reference to getAutoFarmManager is ambiguous
+    [javac] 		if (getAutoFarmManager().isFarming())
+    [javac] 		    ^
+    [javac]   both method getAutoFarmManager() in Player and method getAutoFarmManager() in Player match
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\model\actor\Player.java:7208: error: reference to getAutoFarmManager is ambiguous
+    [javac] 			getAutoFarmManager().doFarmActions();
+    [javac] 			^
+    [javac]   both method getAutoFarmManager() in Player and method getAutoFarmManager() in Player match
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\model\actor\Player.java:7245: error: reference to getAutoFarmManager is ambiguous
+    [javac] 		if (getAutoFarmManager().isFarming())
+    [javac] 		    ^
+    [javac]   both method getAutoFarmManager() in Player and method getAutoFarmManager() in Player match
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\model\actor\ai\AutoFarmManager.java:62: error: cannot find symbol
+    [javac]         if (_player.getLevel() < MIN_LEVEL)
+    [javac]                    ^
+    [javac]   symbol:   method getLevel()
+    [javac]   location: variable _player of type Player
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\model\actor\ai\AutoFarmManager.java:153: error: cannot find symbol
+    [javac]         return !_player.isAttackingNow();
+    [javac]                        ^
+    [javac]   symbol:   method isAttackingNow()
+    [javac]   location: variable _player of type Player
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\model\actor\ai\AutoFarmManager.java:158: error: cannot find symbol
+    [javac]         return _player.getCurrentHp() < _player.getMaxHp() * EMERGENCY_HEAL_HP_PERCENT / 100;
+    [javac]                       ^
+    [javac]   symbol:   method getCurrentHp()
+    [javac]   location: variable _player of type Player
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\model\actor\ai\AutoFarmManager.java:158: error: cannot find symbol
+    [javac]         return _player.getCurrentHp() < _player.getMaxHp() * EMERGENCY_HEAL_HP_PERCENT / 100;
+    [javac]                                                ^
+    [javac]   symbol:   method getMaxHp()
+    [javac]   location: variable _player of type Player
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\model\actor\ai\AutoFarmManager.java:166: error: cannot find symbol
+    [javac]         for (Creature creature : _player.getKnownList().getKnownType(Monster.class))
+    [javac]                                         ^
+    [javac]   symbol:   method getKnownList()
+    [javac]   location: variable _player of type Player
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\model\actor\ai\AutoFarmManager.java:170: error: cannot find symbol
+    [javac]                 _player.isInsideRadius(creature, _farmRadius, true, false) &&
+    [javac]                        ^
+    [javac]   symbol:   method isInsideRadius(Creature,int,boolean,boolean)
+    [javac]   location: variable _player of type Player
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\model\actor\ai\AutoFarmManager.java:183: error: package net.sf.l2j.gameserver.ai.model does not exist
+    [javac]                 _player.getAI().setIntention(net.sf.l2j.gameserver.ai.model.CtrlIntention.ATTACK, target);
+    [javac]                                                                            ^
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\model\actor\ai\AutoFarmManager.java:195: error: cannot find symbol
+    [javac]             int distance = (int) _player.calculateDistance(target, false);
+    [javac]                                         ^
+    [javac]   symbol:   method calculateDistance(Monster,boolean)
+    [javac]   location: variable _player of type Player
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\model\actor\ai\AutoFarmManager.java:208: error: cannot find symbol
+    [javac]         int playerLevel = _player.getLevel();
+    [javac]                                  ^
+    [javac]   symbol:   method getLevel()
+    [javac]   location: variable _player of type Player
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\model\actor\ai\AutoFarmManager.java:209: error: cannot find symbol
+    [javac]         int monsterLevel = monster.getLevel();
+    [javac]                                   ^
+    [javac]   symbol:   method getLevel()
+    [javac]   location: variable monster of type Monster
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\model\actor\ai\AutoFarmManager.java:212: error: cannot find symbol
+    [javac]                monster.isAutoAttackable(_player);
+    [javac]                       ^
+    [javac]   symbol:   method isAutoAttackable(Player)
+    [javac]   location: variable monster of type Monster
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\model\actor\ai\AutoFarmManager.java:220: error: cannot find symbol
+    [javac]         for (ItemInstance item : _player.getKnownList().getKnownType(ItemInstance.class))
+    [javac]                                         ^
+    [javac]   symbol:   method getKnownList()
+    [javac]   location: variable _player of type Player
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\model\actor\ai\AutoFarmManager.java:225: error: package net.sf.l2j.gameserver.ai.model does not exist
+    [javac]                 _player.getAI().setIntention(net.sf.l2j.gameserver.ai.model.CtrlIntention.PICK_UP, item);
+    [javac]                                                                            ^
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\model\actor\ai\AutoFarmManager.java:233: error: cannot find symbol
+    [javac]         return _player.isInsideRadius(item, 150, true, false) && 
+    [javac]                       ^
+    [javac]   symbol:   method isInsideRadius(ItemInstance,int,boolean,boolean)
+    [javac]   location: variable _player of type Player
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\model\actor\ai\AutoFarmManager.java:235: error: cannot find symbol
+    [javac]                item.getLocation() == net.sf.l2j.gameserver.model.ItemLocation.VOID &&
+    [javac]                                                                 ^
+    [javac]   symbol:   class ItemLocation
+    [javac]   location: package net.sf.l2j.gameserver.model
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\model\actor\ai\AutoFarmManager.java:241: error: cannot find symbol
+    [javac]         return _player.getInventory().getSize() < _player.getInventoryLimit() - 5;
+    [javac]                                                          ^
+    [javac]   symbol:   method getInventoryLimit()
+    [javac]   location: variable _player of type Player
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\model\actor\ai\AutoFarmManager.java:246: error: cannot find symbol
+    [javac]         if (_player.getCurrentHp() > _player.getMaxHp() * HEAL_HP_PERCENT / 100)
+    [javac]                    ^
+    [javac]   symbol:   method getCurrentHp()
+    [javac]   location: variable _player of type Player
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\model\actor\ai\AutoFarmManager.java:246: error: cannot find symbol
+    [javac]         if (_player.getCurrentHp() > _player.getMaxHp() * HEAL_HP_PERCENT / 100)
+    [javac]                                             ^
+    [javac]   symbol:   method getMaxHp()
+    [javac]   location: variable _player of type Player
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\model\actor\ai\AutoFarmManager.java:254: error: cannot find symbol
+    [javac]                 _player.useItem(potion.getObjectId());
+    [javac]                        ^
+    [javac]   symbol:   method useItem(int)
+    [javac]   location: variable _player of type Player
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\model\actor\ai\AutoFarmManager.java:267: error: cannot find symbol
+    [javac]                 _player.useItem(potion.getObjectId());
+    [javac]                        ^
+    [javac]   symbol:   method useItem(int)
+    [javac]   location: variable _player of type Player
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\model\actor\ai\AutoFarmManager.java:275: error: cannot find symbol
+    [javac]         if (_player.getCurrentMp() > _player.getMaxMp() * HEAL_MP_PERCENT / 100)
+    [javac]                    ^
+    [javac]   symbol:   method getCurrentMp()
+    [javac]   location: variable _player of type Player
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\model\actor\ai\AutoFarmManager.java:275: error: cannot find symbol
+    [javac]         if (_player.getCurrentMp() > _player.getMaxMp() * HEAL_MP_PERCENT / 100)
+    [javac]                                             ^
+    [javac]   symbol:   method getMaxMp()
+    [javac]   location: variable _player of type Player
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\model\actor\ai\AutoFarmManager.java:283: error: cannot find symbol
+    [javac]                 _player.useItem(potion.getObjectId());
+    [javac]                        ^
+    [javac]   symbol:   method useItem(int)
+    [javac]   location: variable _player of type Player
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\network\clientpackets\RequestBypassToServer.java:47: error: cannot find symbol
+    [javac] 		if (!FloodProtectors.performAction(getClient(), Action.BYPASS))
+    [javac] 		                                                      ^
+    [javac]   symbol:   variable BYPASS
+    [javac]   location: class Action
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\network\clientpackets\RequestBypassToServer.java:47: error: cannot find symbol
+    [javac] 		if (!FloodProtectors.performAction(getClient(), Action.BYPASS))
+    [javac] 		     ^
+    [javac]   symbol:   variable FloodProtectors
+    [javac]   location: class RequestBypassToServer
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\network\clientpackets\RequestBypassToServer.java:72: error: cannot find symbol
+    [javac] 				final WorldObject object = World.getInstance().getObject(Integer.parseInt(id));
+    [javac] 				      ^
+    [javac]   symbol:   class WorldObject
+    [javac]   location: class RequestBypassToServer
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\network\clientpackets\RequestBypassToServer.java:72: error: cannot find symbol
+    [javac] 				final WorldObject object = World.getInstance().getObject(Integer.parseInt(id));
+    [javac] 				                           ^
+    [javac]   symbol:   variable World
+    [javac]   location: class RequestBypassToServer
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\network\clientpackets\RequestBypassToServer.java:73: error: cannot find symbol
+    [javac] 				if (object instanceof Npc npc && endOfId > 0 && player.getAI().canDoInteract(npc))
+    [javac] 				                      ^
+    [javac]   symbol:   class Npc
+    [javac]   location: class RequestBypassToServer
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\network\clientpackets\RequestBypassToServer.java:86: error: cannot find symbol
+    [javac] 			WorldObject object = player.getTarget();
+    [javac] 			^
+    [javac]   symbol:   class WorldObject
+    [javac]   location: class RequestBypassToServer
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\network\clientpackets\RequestBypassToServer.java:87: error: cannot find symbol
+    [javac] 			if (object instanceof Npc targetNpc)
+    [javac] 			                      ^
+    [javac]   symbol:   class Npc
+    [javac]   location: class RequestBypassToServer
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\network\clientpackets\RequestBypassToServer.java:94: error: cannot find symbol
+    [javac] 			final ClanHall clanHall = ClanHallManager.getInstance().getClanHall(clanHallId);
+    [javac] 			      ^
+    [javac]   symbol:   class ClanHall
+    [javac]   location: class RequestBypassToServer
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\network\clientpackets\RequestBypassToServer.java:100: error: cannot find symbol
+    [javac] 			WorldObject object = player.getTarget();
+    [javac] 			^
+    [javac]   symbol:   class WorldObject
+    [javac]   location: class RequestBypassToServer
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\network\clientpackets\RequestBypassToServer.java:101: error: cannot find symbol
+    [javac] 			if (object instanceof Npc targetNpc)
+    [javac] 			                      ^
+    [javac]   symbol:   class Npc
+    [javac]   location: class RequestBypassToServer
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\network\clientpackets\RequestBypassToServer.java:111: error: cannot find symbol
+    [javac] 			WorldObject object = player.getTarget();
+    [javac] 			^
+    [javac]   symbol:   class WorldObject
+    [javac]   location: class RequestBypassToServer
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\network\clientpackets\RequestBypassToServer.java:112: error: cannot find symbol
+    [javac] 			if (object instanceof Npc targetNpc)
+    [javac] 			                      ^
+    [javac]   symbol:   class Npc
+    [javac]   location: class RequestBypassToServer
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\network\clientpackets\RequestBypassToServer.java:116: error: cannot find symbol
+    [javac] 				if (((Door) object).isAutoAttackable(player) && player.getClan() != null)
+    [javac] 				                   ^
+    [javac]   symbol:   method isAutoAttackable(Player)
+    [javac]   location: class Door
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\network\clientpackets\RequestBypassToServer.java:118: error: cannot find symbol
+    [javac] 					final Castle castle = CastleManager.getInstance().getCastle(object);
+    [javac] 					      ^
+    [javac]   symbol:   class Castle
+    [javac]   location: class RequestBypassToServer
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\network\clientpackets\RequestBypassToServer.java:122: error: cannot find symbol
+    [javac] 							((Door) object).onBypassFeedback(player, _command);
+    [javac] 							               ^
+    [javac]   symbol:   method onBypassFeedback(Player,String)
+    [javac]   location: class Door
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\network\clientpackets\RequestBypassToServer.java:127: error: cannot find symbol
+    [javac] 								((Door) object).onBypassFeedback(player, _command);
+    [javac] 								               ^
+    [javac]   symbol:   method onBypassFeedback(Player,String)
+    [javac]   location: class Door
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\network\clientpackets\RequestBypassToServer.java:132: error: cannot find symbol
+    [javac] 					((Door) object).onBypassFeedback(player, _command);
+    [javac] 					               ^
+    [javac]   symbol:   method onBypassFeedback(Player,String)
+    [javac]   location: class Door
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\network\clientpackets\RequestBypassToServer.java:134: error: cannot find symbol
+    [javac] 			else if (object instanceof FortManager)
+    [javac] 			                           ^
+    [javac]   symbol:   class FortManager
+    [javac]   location: class RequestBypassToServer
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\network\clientpackets\RequestBypassToServer.java:135: error: cannot find symbol
+    [javac] 				((FortManager) object).onBypassFeedback(player, _command);
+    [javac] 				  ^
+    [javac]   symbol:   class FortManager
+    [javac]   location: class RequestBypassToServer
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\network\clientpackets\RequestBypassToServer.java:165: error: cannot find symbol
+    [javac] 					if (player.getAccessLevel().isGm() || (clan.getWarehouse().getWhOwnerId() > 0 && clan.getWarehouse().getWhOwnerId() == player.getClan().getLeaderId()))
+    [javac] 					                                                          ^
+    [javac]   symbol:   method getWhOwnerId()
+    [javac]   location: class ItemContainer
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\network\clientpackets\RequestBypassToServer.java:165: error: cannot find symbol
+    [javac] 					if (player.getAccessLevel().isGm() || (clan.getWarehouse().getWhOwnerId() > 0 && clan.getWarehouse().getWhOwnerId() == player.getClan().getLeaderId()))
+    [javac] 					                                                                                                    ^
+    [javac]   symbol:   method getWhOwnerId()
+    [javac]   location: class ItemContainer
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\network\clientpackets\RequestBypassToServer.java:179: error: cannot find symbol
+    [javac] 					if (player.getAccessLevel().isGm() || (clan.getWarehouse().getWhOwnerId() > 0 && clan.getWarehouse().getWhOwnerId() == player.getClan().getLeaderId()))
+    [javac] 					                                                          ^
+    [javac]   symbol:   method getWhOwnerId()
+    [javac]   location: class ItemContainer
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\network\clientpackets\RequestBypassToServer.java:179: error: cannot find symbol
+    [javac] 					if (player.getAccessLevel().isGm() || (clan.getWarehouse().getWhOwnerId() > 0 && clan.getWarehouse().getWhOwnerId() == player.getClan().getLeaderId()))
+    [javac] 					                                                                                                    ^
+    [javac]   symbol:   method getWhOwnerId()
+    [javac]   location: class ItemContainer
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\network\clientpackets\RequestBypassToServer.java:206: error: reference to getAutoFarmManager is ambiguous
+    [javac] 				activeChar.getAutoFarmManager().startFarming();
+    [javac] 				          ^
+    [javac]   both method getAutoFarmManager() in Player and method getAutoFarmManager() in Player match
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\network\clientpackets\RequestBypassToServer.java:209: error: reference to getAutoFarmManager is ambiguous
+    [javac] 				activeChar.getAutoFarmManager().stopFarming();
+    [javac] 				          ^
+    [javac]   both method getAutoFarmManager() in Player and method getAutoFarmManager() in Player match
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\network\clientpackets\RequestBypassToServer.java:212: error: reference to getAutoFarmManager is ambiguous
+    [javac] 				activeChar.getAutoFarmManager().toggleFarming();
+    [javac] 				          ^
+    [javac]   both method getAutoFarmManager() in Player and method getAutoFarmManager() in Player match
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\network\clientpackets\RequestBypassToServer.java:220: error: reference to getAutoFarmManager is ambiguous
+    [javac] 						activeChar.getAutoFarmManager().setFarmRadius(radius);
+    [javac] 						          ^
+    [javac]   both method getAutoFarmManager() in Player and method getAutoFarmManager() in Player match
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\network\clientpackets\RequestBypassToServer.java:233: error: reference to getAutoFarmManager is ambiguous
+    [javac] 				activeChar.sendMessage(activeChar.getAutoFarmManager().getStatus());
+    [javac] 				                                 ^
+    [javac]   both method getAutoFarmManager() in Player and method getAutoFarmManager() in Player match
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\network\clientpackets\Say2.java:84: error: cannot find symbol
+    [javac] 		if (!FloodProtectors.performAction(getClient(), Action.CHAT, _type == SayType.TELL.ordinal() ? Config.FLOOD_PROTECTOR_TELL_CHAT : Config.FLOOD_PROTECTOR_GLOBAL_CHAT))
+    [javac] 		                                                      ^
+    [javac]   symbol:   variable CHAT
+    [javac]   location: class Action
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\network\clientpackets\Say2.java:84: error: cannot find symbol
+    [javac] 		if (!FloodProtectors.performAction(getClient(), Action.CHAT, _type == SayType.TELL.ordinal() ? Config.FLOOD_PROTECTOR_TELL_CHAT : Config.FLOOD_PROTECTOR_GLOBAL_CHAT))
+    [javac] 		     ^
+    [javac]   symbol:   variable FloodProtectors
+    [javac]   location: class Say2
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\network\clientpackets\Say2.java:84: error: cannot find symbol
+    [javac] 		if (!FloodProtectors.performAction(getClient(), Action.CHAT, _type == SayType.TELL.ordinal() ? Config.FLOOD_PROTECTOR_TELL_CHAT : Config.FLOOD_PROTECTOR_GLOBAL_CHAT))
+    [javac] 		                                                                                                     ^
+    [javac]   symbol:   variable FLOOD_PROTECTOR_TELL_CHAT
+    [javac]   location: class Config
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\network\clientpackets\Say2.java:84: error: cannot find symbol
+    [javac] 		if (!FloodProtectors.performAction(getClient(), Action.CHAT, _type == SayType.TELL.ordinal() ? Config.FLOOD_PROTECTOR_TELL_CHAT : Config.FLOOD_PROTECTOR_GLOBAL_CHAT))
+    [javac] 		                                                                                                                                        ^
+    [javac]   symbol:   variable FLOOD_PROTECTOR_GLOBAL_CHAT
+    [javac]   location: class Config
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\network\clientpackets\Say2.java:92: error: cannot find symbol
+    [javac] 			activeChar.sendPacket(SystemMessageId.YOU_HAVE_BEEN_REPORTED_SO_ACTIONS_NOT_ALLOWED);
+    [javac] 			                                     ^
+    [javac]   symbol:   variable YOU_HAVE_BEEN_REPORTED_SO_ACTIONS_NOT_ALLOWED
+    [javac]   location: class SystemMessageId
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\network\clientpackets\Say2.java:96: error: cannot find symbol
+    [javac] 		if (activeChar.isInJail() && Config.JAIL_DISABLE_CHAT)
+    [javac] 		                                   ^
+    [javac]   symbol:   variable JAIL_DISABLE_CHAT
+    [javac]   location: class Config
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\network\clientpackets\Say2.java:98: error: cannot find symbol
+    [javac] 			activeChar.sendPacket(SystemMessageId.YOU_HAVE_BEEN_REPORTED_SO_ACTIONS_NOT_ALLOWED);
+    [javac] 			                                     ^
+    [javac]   symbol:   variable YOU_HAVE_BEEN_REPORTED_SO_ACTIONS_NOT_ALLOWED
+    [javac]   location: class SystemMessageId
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\network\clientpackets\Say2.java:113: error: cannot find symbol
+    [javac] 			if (!PetitionManager.getInstance().isPlayerInConsultation(activeChar))
+    [javac] 			                                  ^
+    [javac]   symbol:   method isPlayerInConsultation(Player)
+    [javac]   location: class PetitionManager
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\network\clientpackets\Say2.java:116: error: cannot find symbol
+    [javac] 				PetitionManager.getInstance().sendActivePetitionMessage(activeChar, _text);
+    [javac] 				                             ^
+    [javac]   symbol:   method sendActivePetitionMessage(Player,String)
+    [javac]   location: class PetitionManager
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\network\clientpackets\Say2.java:119: error: cannot find symbol
+    [javac] 			PetitionManager.getInstance().sendGmAnswer(activeChar, _text);
+    [javac] 			                             ^
+    [javac]   symbol:   method sendGmAnswer(Player,String)
+    [javac]   location: class PetitionManager
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\network\clientpackets\Say2.java:120: error: cannot find symbol
+    [javac] 		else if (sayType == SayType.SHOUT && Config.DEFAULT_GLOBAL_CHAT.equalsIgnoreCase("on") && (activeChar.getClient() == null || !activeChar.getClient().isDetached()))
+    [javac] 		                                           ^
+    [javac]   symbol:   variable DEFAULT_GLOBAL_CHAT
+    [javac]   location: class Config
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\network\clientpackets\Say2.java:122: error: cannot find symbol
+    [javac] 			if (!activeChar.isGM() && !activeChar.getAccessLevel().canGlobalChat())
+    [javac] 			                                                      ^
+    [javac]   symbol:   method canGlobalChat()
+    [javac]   location: class AccessLevel
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\network\clientpackets\Say2.java:128: error: incompatible types: Player cannot be converted to int
+    [javac] 			final CreatureSay cs = new CreatureSay(activeChar, sayType, activeChar.getName(), _text);
+    [javac] 			                                       ^
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\network\clientpackets\Say2.java:129: error: cannot find symbol
+    [javac] 			for (Player player : World.getInstance().getPlayers())
+    [javac] 			                     ^
+    [javac]   symbol:   variable World
+    [javac]   location: class Say2
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\network\clientpackets\Say2.java:131: error: cannot find symbol
+    [javac] 				if (!BlockList.isBlocked(player, activeChar))
+    [javac] 				     ^
+    [javac]   symbol:   variable BlockList
+    [javac]   location: class Say2
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\network\clientpackets\Say2.java:135: error: cannot find symbol
+    [javac] 		else if (sayType == SayType.TRADE && Config.DEFAULT_TRADE_CHAT.equalsIgnoreCase("on") && (activeChar.getClient() == null || !activeChar.getClient().isDetached()))
+    [javac] 		                                           ^
+    [javac]   symbol:   variable DEFAULT_TRADE_CHAT
+    [javac]   location: class Config
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\network\clientpackets\Say2.java:137: error: cannot find symbol
+    [javac] 			if (Config.ZONE_TOWN_ONLY && !activeChar.isInsideZone(ZoneId.TOWN))
+    [javac] 			          ^
+    [javac]   symbol:   variable ZONE_TOWN_ONLY
+    [javac]   location: class Config
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\network\clientpackets\Say2.java:137: error: cannot find symbol
+    [javac] 			if (Config.ZONE_TOWN_ONLY && !activeChar.isInsideZone(ZoneId.TOWN))
+    [javac] 			                                                      ^
+    [javac]   symbol:   variable ZoneId
+    [javac]   location: class Say2
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\network\clientpackets\Say2.java:139: error: cannot find symbol
+    [javac] 				activeChar.sendPacket(SystemMessageId.NOT_WORKING_PLEASE_GO_TO_NEAREST_TOWN);
+    [javac] 				                                     ^
+    [javac]   symbol:   variable NOT_WORKING_PLEASE_GO_TO_NEAREST_TOWN
+    [javac]   location: class SystemMessageId
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\network\clientpackets\Say2.java:143: error: incompatible types: Player cannot be converted to int
+    [javac] 			final CreatureSay cs = new CreatureSay(activeChar, sayType, activeChar.getName(), _text);
+    [javac] 			                                       ^
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\network\clientpackets\Say2.java:144: error: cannot find symbol
+    [javac] 			for (Player player : World.getInstance().getPlayers())
+    [javac] 			                     ^
+    [javac]   symbol:   variable World
+    [javac]   location: class Say2
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\network\clientpackets\Say2.java:146: error: cannot find symbol
+    [javac] 				if (!BlockList.isBlocked(player, activeChar))
+    [javac] 				     ^
+    [javac]   symbol:   variable BlockList
+    [javac]   location: class Say2
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\network\clientpackets\Say2.java:152: error: cannot find symbol
+    [javac] 			if (Config.JAIL_DISABLE_TELL && activeChar.isInJail())
+    [javac] 			          ^
+    [javac]   symbol:   variable JAIL_DISABLE_TELL
+    [javac]   location: class Config
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\network\clientpackets\Say2.java:154: error: cannot find symbol
+    [javac] 				activeChar.sendPacket(SystemMessageId.YOU_HAVE_BEEN_REPORTED_SO_ACTIONS_NOT_ALLOWED);
+    [javac] 				                                     ^
+    [javac]   symbol:   variable YOU_HAVE_BEEN_REPORTED_SO_ACTIONS_NOT_ALLOWED
+    [javac]   location: class SystemMessageId
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\network\clientpackets\Say2.java:158: error: cannot find symbol
+    [javac] 			final Player targetPlayer = World.getInstance().getPlayer(_target);
+    [javac] 			                            ^
+    [javac]   symbol:   variable World
+    [javac]   location: class Say2
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\network\clientpackets\Say2.java:165: error: cannot find symbol
+    [javac] 			if (targetPlayer.isInJail() && Config.JAIL_DISABLE_TELL)
+    [javac] 			                                     ^
+    [javac]   symbol:   variable JAIL_DISABLE_TELL
+    [javac]   location: class Config
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\network\clientpackets\Say2.java:177: error: cannot find symbol
+    [javac] 			if (BlockList.isBlocked(targetPlayer, activeChar))
+    [javac] 			    ^
+    [javac]   symbol:   variable BlockList
+    [javac]   location: class Say2
+    [javac] Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+    [javac] 100 errors
+    [javac] only showing the first 100 errors, of 127 total; use -Xmaxerrs if you would like to see more
+
+BUILD FAILED
+C:\server\acis_public-master\aCis_gameserver\build.xml:87: Compile failed; see the compiler error output for details.
+
+Total time: 11 seconds
