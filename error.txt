@@ -1,3 +1,4 @@
+    [javac] Compiling 2344 source files to C:\server\acis_public-master\aCis_gameserver\build\classes
     [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\model\actor\Player.java:7159: error: cannot find symbol
     [javac] 	private final AutoFarmManager _autoFarmManager = new AutoFarmManager(this);
     [javac] 	              ^
@@ -95,113 +96,102 @@
     [javac] 		if (getAutoFarmManager().isFarming())
     [javac] 		    ^
     [javac]   both method getAutoFarmManager() in Player and method getAutoFarmManager() in Player match
-    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\model\actor\ai\AutoFarmManager.java:62: error: cannot find symbol
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\model\actor\ai\AutoFarmManager.java:63: error: cannot find symbol
     [javac]         if (_player.getLevel() < MIN_LEVEL)
     [javac]                    ^
     [javac]   symbol:   method getLevel()
     [javac]   location: variable _player of type Player
-    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\model\actor\ai\AutoFarmManager.java:153: error: cannot find symbol
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\model\actor\ai\AutoFarmManager.java:154: error: cannot find symbol
     [javac]         return !_player.isAttackingNow();
     [javac]                        ^
     [javac]   symbol:   method isAttackingNow()
     [javac]   location: variable _player of type Player
-    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\model\actor\ai\AutoFarmManager.java:158: error: cannot find symbol
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\model\actor\ai\AutoFarmManager.java:159: error: cannot find symbol
     [javac]         return _player.getCurrentHp() < _player.getMaxHp() * EMERGENCY_HEAL_HP_PERCENT / 100;
     [javac]                       ^
     [javac]   symbol:   method getCurrentHp()
     [javac]   location: variable _player of type Player
-    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\model\actor\ai\AutoFarmManager.java:158: error: cannot find symbol
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\model\actor\ai\AutoFarmManager.java:159: error: cannot find symbol
     [javac]         return _player.getCurrentHp() < _player.getMaxHp() * EMERGENCY_HEAL_HP_PERCENT / 100;
     [javac]                                                ^
     [javac]   symbol:   method getMaxHp()
     [javac]   location: variable _player of type Player
-    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\model\actor\ai\AutoFarmManager.java:166: error: cannot find symbol
-    [javac]         for (Creature creature : _player.getKnownList().getKnownType(Monster.class))
-    [javac]                                         ^
-    [javac]   symbol:   method getKnownList()
-    [javac]   location: variable _player of type Player
-    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\model\actor\ai\AutoFarmManager.java:170: error: cannot find symbol
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\model\actor\ai\AutoFarmManager.java:171: error: cannot find symbol
     [javac]                 _player.isInsideRadius(creature, _farmRadius, true, false) &&
     [javac]                        ^
     [javac]   symbol:   method isInsideRadius(Creature,int,boolean,boolean)
     [javac]   location: variable _player of type Player
-    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\model\actor\ai\AutoFarmManager.java:183: error: package net.sf.l2j.gameserver.ai.model does not exist
-    [javac]                 _player.getAI().setIntention(net.sf.l2j.gameserver.ai.model.CtrlIntention.ATTACK, target);
-    [javac]                                                                            ^
-    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\model\actor\ai\AutoFarmManager.java:195: error: cannot find symbol
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\model\actor\ai\AutoFarmManager.java:184: error: cannot find symbol
+    [javac]                 _player.getAI().setIntention(CtrlIntention.ATTACK, target);
+    [javac]                                              ^
+    [javac]   symbol:   variable CtrlIntention
+    [javac]   location: class AutoFarmManager
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\model\actor\ai\AutoFarmManager.java:196: error: cannot find symbol
     [javac]             int distance = (int) _player.calculateDistance(target, false);
     [javac]                                         ^
     [javac]   symbol:   method calculateDistance(Monster,boolean)
     [javac]   location: variable _player of type Player
-    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\model\actor\ai\AutoFarmManager.java:208: error: cannot find symbol
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\model\actor\ai\AutoFarmManager.java:209: error: cannot find symbol
     [javac]         int playerLevel = _player.getLevel();
     [javac]                                  ^
     [javac]   symbol:   method getLevel()
     [javac]   location: variable _player of type Player
-    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\model\actor\ai\AutoFarmManager.java:209: error: cannot find symbol
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\model\actor\ai\AutoFarmManager.java:210: error: cannot find symbol
     [javac]         int monsterLevel = monster.getLevel();
     [javac]                                   ^
     [javac]   symbol:   method getLevel()
     [javac]   location: variable monster of type Monster
-    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\model\actor\ai\AutoFarmManager.java:212: error: cannot find symbol
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\model\actor\ai\AutoFarmManager.java:213: error: cannot find symbol
     [javac]                monster.isAutoAttackable(_player);
     [javac]                       ^
     [javac]   symbol:   method isAutoAttackable(Player)
     [javac]   location: variable monster of type Monster
-    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\model\actor\ai\AutoFarmManager.java:220: error: cannot find symbol
-    [javac]         for (ItemInstance item : _player.getKnownList().getKnownType(ItemInstance.class))
-    [javac]                                         ^
-    [javac]   symbol:   method getKnownList()
-    [javac]   location: variable _player of type Player
-    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\model\actor\ai\AutoFarmManager.java:225: error: package net.sf.l2j.gameserver.ai.model does not exist
-    [javac]                 _player.getAI().setIntention(net.sf.l2j.gameserver.ai.model.CtrlIntention.PICK_UP, item);
-    [javac]                                                                            ^
-    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\model\actor\ai\AutoFarmManager.java:233: error: cannot find symbol
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\model\actor\ai\AutoFarmManager.java:226: error: cannot find symbol
+    [javac]                 _player.getAI().setIntention(CtrlIntention.PICK_UP, item);
+    [javac]                                              ^
+    [javac]   symbol:   variable CtrlIntention
+    [javac]   location: class AutoFarmManager
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\model\actor\ai\AutoFarmManager.java:234: error: cannot find symbol
     [javac]         return _player.isInsideRadius(item, 150, true, false) && 
     [javac]                       ^
     [javac]   symbol:   method isInsideRadius(ItemInstance,int,boolean,boolean)
     [javac]   location: variable _player of type Player
-    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\model\actor\ai\AutoFarmManager.java:235: error: cannot find symbol
-    [javac]                item.getLocation() == net.sf.l2j.gameserver.model.ItemLocation.VOID &&
-    [javac]                                                                 ^
-    [javac]   symbol:   class ItemLocation
-    [javac]   location: package net.sf.l2j.gameserver.model
-    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\model\actor\ai\AutoFarmManager.java:241: error: cannot find symbol
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\model\actor\ai\AutoFarmManager.java:242: error: cannot find symbol
     [javac]         return _player.getInventory().getSize() < _player.getInventoryLimit() - 5;
     [javac]                                                          ^
     [javac]   symbol:   method getInventoryLimit()
     [javac]   location: variable _player of type Player
-    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\model\actor\ai\AutoFarmManager.java:246: error: cannot find symbol
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\model\actor\ai\AutoFarmManager.java:247: error: cannot find symbol
     [javac]         if (_player.getCurrentHp() > _player.getMaxHp() * HEAL_HP_PERCENT / 100)
     [javac]                    ^
     [javac]   symbol:   method getCurrentHp()
     [javac]   location: variable _player of type Player
-    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\model\actor\ai\AutoFarmManager.java:246: error: cannot find symbol
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\model\actor\ai\AutoFarmManager.java:247: error: cannot find symbol
     [javac]         if (_player.getCurrentHp() > _player.getMaxHp() * HEAL_HP_PERCENT / 100)
     [javac]                                             ^
     [javac]   symbol:   method getMaxHp()
     [javac]   location: variable _player of type Player
-    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\model\actor\ai\AutoFarmManager.java:254: error: cannot find symbol
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\model\actor\ai\AutoFarmManager.java:255: error: cannot find symbol
     [javac]                 _player.useItem(potion.getObjectId());
     [javac]                        ^
     [javac]   symbol:   method useItem(int)
     [javac]   location: variable _player of type Player
-    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\model\actor\ai\AutoFarmManager.java:267: error: cannot find symbol
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\model\actor\ai\AutoFarmManager.java:268: error: cannot find symbol
     [javac]                 _player.useItem(potion.getObjectId());
     [javac]                        ^
     [javac]   symbol:   method useItem(int)
     [javac]   location: variable _player of type Player
-    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\model\actor\ai\AutoFarmManager.java:275: error: cannot find symbol
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\model\actor\ai\AutoFarmManager.java:276: error: cannot find symbol
     [javac]         if (_player.getCurrentMp() > _player.getMaxMp() * HEAL_MP_PERCENT / 100)
     [javac]                    ^
     [javac]   symbol:   method getCurrentMp()
     [javac]   location: variable _player of type Player
-    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\model\actor\ai\AutoFarmManager.java:275: error: cannot find symbol
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\model\actor\ai\AutoFarmManager.java:276: error: cannot find symbol
     [javac]         if (_player.getCurrentMp() > _player.getMaxMp() * HEAL_MP_PERCENT / 100)
     [javac]                                             ^
     [javac]   symbol:   method getMaxMp()
     [javac]   location: variable _player of type Player
-    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\model\actor\ai\AutoFarmManager.java:283: error: cannot find symbol
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\model\actor\ai\AutoFarmManager.java:284: error: cannot find symbol
     [javac]                 _player.useItem(potion.getObjectId());
     [javac]                        ^
     [javac]   symbol:   method useItem(int)
@@ -472,9 +462,24 @@
     [javac] 			    ^
     [javac]   symbol:   variable BlockList
     [javac]   location: class Say2
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\network\clientpackets\Say2.java:179: error: cannot find symbol
+    [javac] 				activeChar.sendPacket(SystemMessageId.YOU_HAVE_BEEN_BLOCKED_FROM_THE_CONTACT_YOU_SELECTED);
+    [javac] 				                                     ^
+    [javac]   symbol:   variable YOU_HAVE_BEEN_BLOCKED_FROM_THE_CONTACT_YOU_SELECTED
+    [javac]   location: class SystemMessageId
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\network\clientpackets\Say2.java:183: error: cannot find symbol
+    [javac] 			if (targetPlayer.isInOfflineMode())
+    [javac] 			                ^
+    [javac]   symbol:   method isInOfflineMode()
+    [javac]   location: variable targetPlayer of type Player
+    [javac] C:\server\acis_public-master\aCis_gameserver\java\net\sf\l2j\gameserver\network\clientpackets\Say2.java:189: error: cannot find symbol
+    [javac] 			if (Config.JAIL_DISABLE_TELL && targetPlayer.isInJail())
+    [javac] 			          ^
+    [javac]   symbol:   variable JAIL_DISABLE_TELL
+    [javac]   location: class Config
     [javac] Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
     [javac] 100 errors
-    [javac] only showing the first 100 errors, of 127 total; use -Xmaxerrs if you would like to see more
+    [javac] only showing the first 100 errors, of 124 total; use -Xmaxerrs if you would like to see more
 
 BUILD FAILED
 C:\server\acis_public-master\aCis_gameserver\build.xml:87: Compile failed; see the compiler error output for details.
